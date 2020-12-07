@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-mysql-batch-bulk-create",
+  "version": "1.0.0",
+  "description": "nodejs-mysql-batch-bulk-create",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:cemoralesarmijo/nodejs-mysql-batch-bulk-create.git"
+  },
+  "author": "Cesar Morales Armijo",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "fs": "0.0.1-security",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.3.5"
+  }
+}
